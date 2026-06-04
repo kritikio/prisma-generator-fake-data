@@ -244,14 +244,5 @@ function createFakeFunctionsWithFKs(
 }
 
 function generateRandomJson(): string {
-  const obj = {
-    foo: faker.string.uuid(),
-    bar: faker.number.int(),
-    bike: faker.number.hex(),
-    a: faker.string.alphanumeric(),
-    b: faker.number.float(),
-    name: faker.person.firstName(),
-    prop: faker.string.binary(),
-  };
-  return JSON.stringify(obj);
+  return '{ foo: faker.string.uuid(), bar: faker.number.int(), bike: faker.number.hex(), a: faker.string.alphanumeric(), b: faker.number.float(), name: faker.person.firstName(), prop: faker.string.binary() }';
 }

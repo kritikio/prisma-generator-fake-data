@@ -8,13 +8,13 @@
     "start": "ts-node index.ts"
   },
   "dependencies": {
-    "@prisma/client": "^6.7.0",
+    "@prisma/client": "^7.10.0",
     "ts-node": "^10.9.2",
     "prisma-generator-fake-data": "file:../"
   },
   "devDependencies": {
     "@types/node": "22.15.13",
-    "prisma": "^6.7.0",
+    "prisma": "^7.10.0",
     "typescript": "5.8.3"
   }
 }
